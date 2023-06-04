@@ -49,6 +49,13 @@
     margin-bottom: -1rem;
 }
 
+.textarea {
+    border-radius: 10px;
+    height: 35rem;
+    margin-bottom: 2rem;
+    margin-left: -2rem;
+}
+
 #buffer {
     font-size: 0.1rem;
 }

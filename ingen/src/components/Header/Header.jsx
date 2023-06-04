@@ -51,6 +51,9 @@ function Header() {
                                 <a className="nav-link" href="/labinput">Test</a>
                             </li>
                             <li className="nav-item me-3">
+                                <a className="nav-link" href="/symptoms">Symptoms</a>
+                            </li>
+                            <li className="nav-item me-3">
                                 <a className="nav-link" href="/about">About</a>
                             </li>
 <li className="nav-item d-flex justify-content-center" style={(user || loading) ? { marginRight: loading ? '5.4rem' : '0' } : {}}>

@@ -46,8 +46,8 @@ function LandingPage() {
           </div>
 
           <div className="col-7 col-md-6 col-lg-4 offset-1 offset-md-0">
-            <h1 className="title mb-5">Technological Integration<br />In Clinical Assessments</h1>
-            <p className="infoLabtica">Labtica offers fast and accurate testing of your Complete Blood Count (CBC) results. Simply upload your CBC report and provide your personal information to receive valuable insights into your health status. Our platform is secure and easy to use, ensuring your privacy and confidentiality. Try Labtica today for reliable CBC testing!</p>
+            <h1 className="title mb-5">Technological Integration<br />In Clinical Assessments <br /> with OpenAI API</h1>
+            <p className="infoLabtica">LabTICA AI offers fast and accurate testing of your Complete Blood Count (CBC) results. Simply upload your CBC report and provide your personal information to receive valuable insights into your health status. Our platform is secure and easy to use, ensuring your privacy and confidentiality. Try Labtica today for reliable CBC testing!</p>
           </div>
 
           <div className="col-1 ms-auto me-5 me-sm-4 arrow-button align-self-center text-end" onClick={handleRightClick}>
@@ -117,7 +117,7 @@ function LandingPage() {
           <div className="col-1"></div>
           <div className="col footer mt-5">
 
-            <div className="row h-100 align-items-center">
+            <div className="row h-100 align-items-center checkbg">
               <div className="footer-heading col offset-2">
                 <AiFillCheckCircle className="check me-2" />
                 Reliable
@@ -152,7 +152,7 @@ function LandingPage() {
         <div className="row mb-5 justify-content-center cbcmarginrow">
 
           <div className="col-12 col-md-5 new-element cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcoloryellow">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./1.png" className="img-fluid rounded-5 manypics" alt="red blood cell"></img>
               </div>
@@ -168,7 +168,7 @@ function LandingPage() {
           </div>
 
           <div className="col-12 col-md-5 ms-0 ms-md-5 new-element2 cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcolorpink">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./2.png" className="img-fluid rounded-5 manypics" alt="white blood cell"></img>
               </div>
@@ -188,7 +188,7 @@ function LandingPage() {
         <div className="row mb-5 justify-content-center cbcmarginrow">
 
           <div className="col-12 col-md-5 new-element2 cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcolorpink">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./3.png" className="img-fluid rounded-5 manypics" alt="hemoglobin level"></img>
               </div>
@@ -204,7 +204,7 @@ function LandingPage() {
           </div>
 
           <div className="col-12 col-md-5 ms-0 ms-md-5 new-element cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcoloryellow">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./4.png" className="img-fluid rounded-5 manypics" alt="white blood cell"></img>
               </div>
@@ -223,7 +223,7 @@ function LandingPage() {
         <div className="row mb-5 justify-content-center cbcmarginrow">
 
           <div className="col-12 col-md-5 new-element cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcoloryellow">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./5.png" className="img-fluid rounded-5 manypics" alt="hemoglobin level"></img>
               </div>
@@ -239,7 +239,7 @@ function LandingPage() {
           </div>
 
           <div className="col-12 col-md-5 ms-0 ms-md-5 new-element2 cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcolorpink">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./6.png" className="img-fluid rounded-5 manypics" alt="white blood cell"></img>
               </div>
@@ -259,7 +259,7 @@ function LandingPage() {
         <div className="row mb-5 justify-content-center cbcmarginrow">
 
           <div className="col-12 col-md-5 new-element2 cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcolorpink">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./7.png" className="img-fluid rounded-5 manypics" alt="hemoglobin level"></img>
               </div>
@@ -275,7 +275,7 @@ function LandingPage() {
           </div>
 
           <div className="col-12 col-md-5 ms-0 ms-md-5 new-element cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcoloryellow">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./8.png" className="img-fluid rounded-5 manypics" alt="white blood cell"></img>
               </div>
@@ -296,7 +296,7 @@ function LandingPage() {
         <div className="row mb-5 justify-content-center cbcmarginrow">
 
           <div className="col-12 col-md-5 new-element2 cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcoloryellow">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./9.png" className="img-fluid rounded-5 manypics" alt="hemoglobin level"></img>
               </div>
@@ -312,7 +312,7 @@ function LandingPage() {
           </div>
 
           <div className="col-12 col-md-5 ms-0 ms-md-5 new-element cbcmargincol">
-            <div className="row center-images">
+            <div className="row center-images landingboxcolorpink">
               <div className="col col-md-4 ms-3 me-5 my-3 image-container">
                 <img src="./10.png" className="img-fluid rounded-5 manypics" alt="white blood cell"></img>
               </div>
@@ -406,7 +406,7 @@ function LandingPage() {
         </div>
       </div>
       <div className="container">
-        <p className="footer3-info text-center my-5">© 2023 CBI Group Company. All right reserved.</p>
+        <p className="footer3-info text-center my-5">© 2023 Cute si Cor. All right reserved.</p>
       </div>
     </div >
   );
