@@ -1,0 +1,366 @@
+.background {
+  background-image: url("./Main-Picture.png");
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Background images */
+.background-1 {
+  background-image: url("./Main-Picture.png");
+}
+
+.background-2 {
+  background-image: url("./11.png");
+}
+
+.background-3 {
+  background-image: url("./12.png");
+}
+
+.infoLabtica,
+.title,
+.footer3-info {
+  letter-spacing: 0.08rem;
+}
+
+.arrow-button,
+.language-dropdown:hover {
+  cursor: pointer;
+}
+
+.arrow-button {
+  font-size: 4.5rem;
+  color: #425BE1;
+}
+
+.check {
+  font-size: 2.5rem;
+}
+
+.about-cbc {
+  font-size: 2rem;
+}
+
+.socials-info {
+  font-size: 1.125em;
+}
+
+.info,
+.cbc-texts,
+.footer2-1-info,
+.socials-info {
+  font-size: 1.8rem;
+}
+
+.start-text,
+.infoLabtica,
+.message-input,
+.send-button,
+.footer3-info {
+  font-size: 1.6rem;
+}
+
+.contact-us,
+.language,
+.socials {
+  font-size: 2.4rem;
+}
+
+.footer-margin {
+  margin-top: 5.5rem;
+  margin-bottom: -6.5rem;
+}
+
+.footer-bottom {
+  margin-top: -8rem;
+}
+
+.footer-heading,
+.info,
+.start-button,
+.about-cbc,
+.technological,
+.footer2-1-info,
+.contact-us,
+.contact-info,
+.language,
+.language-button,
+.language-dropdown,
+.footer3-info,
+.socials-info,
+.socials {
+  font-family: Inter;
+}
+
+
+.title,
+.contact-us,
+.language,
+.socials {
+  font-weight: bold;
+}
+
+.contact-us,
+.contact-info,
+.technological {
+  text-align: left;
+}
+
+.cbc-texts,
+.footer2-1-info,
+.contact-info-lastline {
+  text-align: justify;
+}
+
+.about-cbc,
+.footer2 {
+  text-align: center;
+}
+
+.check {
+  color: #5E5E61;
+}
+
+.info {
+  color: #FFF8F8;
+  margin-top: 12.5rem;
+}
+
+.title {
+  font-family: Kaisei Decol;
+  font-size: 4rem;
+  color: #FFFFFF;
+}
+
+.start-button,
+.footer {
+  border-radius: 10rem;
+}
+
+.start-button {
+  width: 15rem;
+  height: 5rem;
+  background-color: #425BE1;
+  align-items: center;
+  transition: 0.2s background;
+}
+
+.start-button:hover {
+  background: #111111;
+}
+
+.start-text {
+  margin: auto;
+  color: #FFF8F8;
+}
+
+.footer {
+  height: 11.5rem;
+  background-color: #E7F1FC;
+}
+
+.cbc-texts {
+  line-height: 2.3rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.manypics:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #0a0909;
+}
+
+
+.manypics {
+  transition: transform 0.2s ease-in-out;
+}
+
+.about-cbc {
+  margin-bottom: 4rem;
+}
+
+.new-element,
+.new-element2 {
+  border-radius: 25px;
+}
+
+.new-element {
+  background-color: rgba(22, 19, 137, 0.15);
+}
+
+.new-element2 {
+  background-color: rgba(158, 9, 76, 0.15);
+}
+
+.cbcmargincol {
+  margin-bottom: 1rem;
+}
+
+.footer2 {
+  background-color: #E7F1FC;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+.footer-firstelem {
+  margin-top: 14.5rem;
+}
+
+.technological {
+  font-weight: 600;
+}
+
+.message-container,
+.send-button {
+  border-radius: 9px;
+}
+
+.message-container {
+  width: 40rem;
+  height: 7rem;
+  background-color: #FFFFFF;
+}
+
+.message-input {
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  padding: 1rem;
+}
+
+.send-button {
+  width: 14.5rem;
+  height: 5.5rem;
+  border: none;
+  background-color: #171313;
+  color: #FFFFFF;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.send-button:hover {
+  background-color: #231f1f;
+}
+
+.send-button:active {
+  background-color: #0d0b0b;
+  box-shadow: 0 0 5px #888;
+}
+
+.footer2-1-info {
+  color: #4F4747;
+}
+
+.footer2-1-info p {
+  margin-bottom: 2.7rem;
+}
+
+.contact-us,
+.language {
+  color: #0E0606;
+}
+
+.contact-us {
+  letter-spacing: 1.5%;
+}
+
+
+.contact-info {
+  font-size: 1.75rem;
+  color: #4F4747;
+}
+
+.contact-info p {
+  margin-bottom: 0rem;
+}
+
+.contact-info-lastline {
+  margin-top: 3.5rem;
+}
+
+.invisible {
+  color: #E7F1FC;
+}
+
+.language-dropdown {
+  width: 11.2rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 8px;
+  font-size: 4rem;
+  background-color: rgb(207, 223, 236);
+}
+
+.social-logos {
+  font-size: 2.8rem;
+}
+
+@media (max-width: 991.98px) {
+
+  .image-container,
+  .center-images {
+    justify-content: center;
+  }
+
+  .image-container {
+    width: 60%;
+  }
+
+  .cbc-texts {
+    font-size: 1.6rem;
+  }
+
+  #linkedin {
+    font-size: 1.3rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .footer-heading {
+    font-size: 1.6rem;
+  }
+
+  #logo {
+    max-width: 80%;
+    margin-left: 13rem;
+  }
+
+  .cbcmargincol {
+    margin-bottom: 0;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .footer-heading {
+    font-size: 2rem;
+  }
+
+  #logo {
+    max-width: 60%;
+    margin-left: 20rem;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  .footer-heading,
+  .socialtext {
+    font-size: 1rem;
+  }
+
+  #linkedin {
+    font-size: 1rem;
+  }
+
+  #logo {
+    margin-left: 2rem;
+  }
+}

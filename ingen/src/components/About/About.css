@@ -1,0 +1,172 @@
+.footer3-info {
+  letter-spacing: 0.08rem;
+}
+
+.language-dropdown:hover {
+  cursor: pointer;
+}
+
+.footer2-1-info {
+  font-size: 1.8rem;
+}
+
+#message-input,
+#send-button,
+.footer3-info {
+  font-size: 1.6rem;
+}
+
+.contact-us,
+.language,
+.socials {
+  font-size: 2.4rem;
+}
+
+.technological,
+.footer2-1-info,
+.contact-us,
+.contact-info,
+.language,
+.language-button,
+.language-dropdown,
+.footer3-info,
+.socials-info,
+.socials {
+  font-family: Inter;
+}
+
+
+.contact-us,
+.language,
+.socials {
+  font-weight: bold;
+}
+
+.contact-us,
+.contact-info,
+.technological {
+  text-align: left;
+}
+
+.footer2-1-info,
+.contact-info-lastline {
+  text-align: justify;
+}
+
+.footer2 {
+  background-color: #E7F1FC;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.footer-firstelem {
+  margin-top: 14.5rem;
+}
+
+.technological {
+  font-weight: 600;
+}
+
+#message-container,
+#send-button {
+  border-radius: 9px;
+}
+
+#message-container {
+  height: 7rem;
+  background-color: #FFFFFF;
+}
+
+#message-input {
+  height: 3rem;
+  border: none;
+  padding: 1rem;
+}
+
+#send-button {
+  width: 14.5rem;
+  height: 5.5rem;
+  border: none;
+  background-color: #171313;
+  color: #FFFFFF;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#send-button:hover {
+  background-color: #425BE1;
+}
+
+#send-button:active {
+  background-color: #0d0b0b;
+  box-shadow: 0 0 5px #888;
+}
+
+.footer2-1-info {
+  color: #4F4747;
+}
+
+.footer2-1-info p {
+  margin-bottom: 2.7rem;
+}
+
+.contact-us,
+.language {
+  color: #0E0606;
+}
+
+.contact-us {
+  letter-spacing: 1.5%;
+}
+
+.contact-info {
+  font-size: 1.75rem;
+  color: #4F4747;
+}
+
+.contact-info p {
+  margin-bottom: 0;
+}
+
+.contact-info-lastline {
+  margin-top: 3.5rem;
+}
+
+.invisible {
+  color: #E7F1FC;
+}
+
+.language-dropdown {
+  width: 11.2rem;
+  height: 5rem;
+  border: 0;
+  border-radius: 8px;
+  font-size: 4rem;
+  background-color: rgb(207, 223, 236);
+}
+
+@media (min-width: 992px) {
+
+  .technological {
+    font-size: 4.8rem;
+  }
+
+  #message-container {
+    width: 65vh;
+  }
+
+  #message-input {
+    width: 35vh;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #message-container {
+    width: 52vh;
+  }
+
+  #message-input {
+    width: 20vh;
+  }
+}

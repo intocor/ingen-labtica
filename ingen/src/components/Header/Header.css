@@ -1,0 +1,115 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.navbar {
+  height: 8vh;
+  border-bottom: 1px solid black;
+}
+
+.navmargin {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #007BFF;
+}
+
+.offcanvas {
+  font-size: 1.8rem;
+}
+
+#navbarOffcanvasLabel {
+  font-size: 3rem;
+}
+
+.offcanvas-size-sm {
+  --bs-offcanvas-width: min(95vw, 15rem) !important;
+}
+
+#acc-photo {
+  width: 7.4rem;
+  height: 3.7rem;
+  max-width: 50%;
+  cursor: pointer;
+  border: 2px solid transparent; 
+  transition: border-color 0.3s;
+}
+
+#acc-photo:hover {
+  border-color: blue;
+}
+
+.spinner-border {
+  margin-right: -1rem;
+  margin-left: 1rem;
+}
+
+.spin {
+  margin-right: -1.5rem;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+
+  .offcanvas {
+    font-size: 2rem;
+  }
+
+  #acc-photo {
+    width: auto;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .navbar-toggler {
+    margin-left: -15rem;
+  }
+
+  .navbar-brand img {
+    max-width: 80%;
+  }
+
+  .acc-dropdown {
+    font-size: 2rem;
+  }
+}
+
+.acc-dropdown {
+  position: absolute;
+  top: 5.3rem;
+  right: 0;
+  z-index: 1;
+  width: 150px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.acc-dropdown a {
+  color: #000000;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.acc-dropdown a:hover {
+  background-color: #b6d3f4;
+}
+
+.rounded-circle {
+  width: 40px;
+  height: 40px;
+}

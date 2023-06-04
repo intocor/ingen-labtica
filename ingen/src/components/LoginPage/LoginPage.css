@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.login-background {
+  background-image: url("./loginbg.png");
+  background-size: cover;
+  height: 92vh;
+  overflow: hidden;
+}
+
+.welcome,
+.login-description,
+.or,
+.signup-link {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.welcome {
+  font-weight: 700;
+  font-size: 4em;
+  margin-top: 2em;
+}
+
+.login-description,
+.or {
+  font-weight: 400;
+  font-size: 1.125em;
+}
+
+.btn-signup {
+  font-family: 'Inter', sans-serif;
+  height: 40px;
+  --primary-color: linear-gradient(180deg, #4879F0 0%, #1F28A0 100%);
+  --secondary-color: #FFFFFF;
+  --hover-color: #111111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  /*font-weight: bold;*/
+  justify-content: center;
+}
+
+.btn-login {
+  font-family: 'Inter', sans-serif;
+  background-color: #EEEEEE;
+  width: 235px;
+  height: 43px;
+  margin-top: 3em;
+}
+
+.btn-signup .arrow-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-signup .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s background;
+}
+
+.btn-signup .arrow::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.btn-signup:hover {
+  background: var(--hover-color);
+}
+
+.btn-signup:hover .arrow {
+  background: var(--secondary-color);
+}
+
+.btn-signup:hover .arrow:before {
+  right: 0;
+}
+
+.btn-login svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+.btn-login:hover:not(:disabled) {
+  background-color: #000000;
+  color: white;
+}
+
+.line1 {
+  width: 90px;
+  height: 0px;
+  border: solid #FFFFFF;
+}
+
+.signup-link,
+.btn-login {
+  font-size: 0.9375em;
+}
