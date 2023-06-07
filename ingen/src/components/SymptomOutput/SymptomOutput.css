@@ -1,0 +1,201 @@
+.bodylabinput {
+    background-image: url("/labinput.png");
+    /* background-size: cover; */
+    background-position: center;
+    height: 94vh;
+    background-repeat: repeat;
+}
+
+#maaargin {
+    margin-top: 2.5rem;
+}
+
+.prevbutton-div{
+    width: 65%;
+}
+.prevbuttons {
+    border: none;
+    border-radius: 13px;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    background-color: #173518;
+    transition: 0.2s background;
+}
+
+.inputtime[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    color: white;
+    cursor: pointer;
+}
+
+.inputtime {
+    border: none;
+    font-size: 1.5rem;
+}
+
+.innerdivinputtime {
+    width: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.squaresymp {
+    width: 90%;
+    background-color: #222b13;
+    opacity: 99%;
+    border-radius: 10px;
+    margin-bottom: -1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innersquare {
+    width: 90%;
+    height: 80%;
+    padding: 0 0.5rem 1rem 0.5rem;
+    background-color: white;
+    opacity: 90%;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 3rem;
+}
+
+.textarea {
+    border-radius: 10px;
+    height: 35rem;
+    margin-bottom: 2rem;
+    margin-left: -2rem;
+}
+
+#buffer {
+    font-size: 0.1rem;
+}
+
+#paddingbox {
+    padding: 2rem 0rem;
+}
+
+.texthead {
+    text-align: center;
+    color: white;
+}
+
+.formcontainer {
+    margin: 0rem 1rem;
+    padding-left: 5rem;
+}
+
+.margincol {
+    margin-bottom: 3rem;
+}
+
+.inlinename {
+    color: white;
+    padding-left: 2rem;
+}
+
+.buttonCheck {
+    padding-right: 0.5rem;
+    color: white;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 1rem 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#submit-btn {
+    width: 20vh;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: #173518;
+    border-radius: 13px;
+    margin-bottom: 2rem;
+    transition: 0.2s background;
+    opacity: 100%;
+}
+
+#submit-btn:hover,
+.prevbuttons:hover {
+    background: #111111;
+}
+
+.placeholder-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140rem;
+    height: 60rem;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+.bodylabinput {
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.bodylabinput.fade-in {
+    opacity: 1;
+}
+
+@media (max-width: 991.98px) {
+    .prevbuttons {
+        font-size: 2rem;
+    }
+
+    .inputtime {
+        font-size: 1.2rem;
+    }
+
+    .inlinename {
+        font-size: 1.3rem;
+    }
+    .placeholder-loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40rem;
+        height: 40rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .prevbuttons {
+        font-size: 1.5rem;
+    }
+
+    .inputtime {
+        font-size: 0.8rem;
+    }
+
+    .textinputtime {
+        font-size: 1rem;
+    }
+
+    .inlinename {
+        font-size: 1.2rem;
+    }
+}

@@ -4,6 +4,7 @@ import About from './components/About/About';
 import LoginPage from './components/LoginPage/LoginPage';
 import SignIn from './components/SignInPage/SignInPage';
 import Symptoms from './components/Symptoms/symptoms';
+import SymptomOutput from './components/SymptomOutput/SymptomOutput';
 import LandingPage from './components/LandingPage/LandingPage';
 import Labinput from './components/LabInput/LabInput';
 import Laboutput from './components/LabOutput/LabOutput';
@@ -18,6 +19,7 @@ const RouterConfig = () => {
         <Route exact path="/signin" element={<SignIn />} />
         <Route exact path="/laboutput/:resultid" element={<Laboutput />} />
         <Route exact path="/symptoms" element={<Symptoms />} />
+        <Route exact path="/symptomsoutput" element={<SymptomOutput />} />
         <Route exact path="/labinput" element={<Labinput />} />
         <Route path="*" element={<Navigate to="/" />} />
         </Routes>
