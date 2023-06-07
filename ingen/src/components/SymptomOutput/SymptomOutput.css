@@ -199,3 +199,39 @@
         font-size: 1.2rem;
     }
 }
+
+/* Define the animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Apply the animation to the text */
+.typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(40, end);
+}
+
+/* Optional: Add a blinking cursor */
+.typing-cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.3em;
+    height: 1em;
+    background-color: #000;
+    animation: blink 1s 10 forwards;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}

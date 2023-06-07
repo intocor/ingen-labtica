@@ -96,7 +96,7 @@
     text-decoration: none;
     font-size: 2.5rem;
     cursor: pointer;
-    background-color: #425BE1;
+    background-color: #222b13;
     transition: 0.2s background;    
 }
 
@@ -167,7 +167,7 @@
     padding: 0.5rem 2.5rem;
     font-size: 1.5rem;
     cursor: pointer;
-    background-color: #425BE1;
+    background-color: #222b13;
     transition: 0.2s background;
     margin-top: 35px;
     margin-right: 10%;
